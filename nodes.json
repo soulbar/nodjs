@@ -1,52 +1,96 @@
 [
   {
-    "type": "hysteria2",
-    "name": "@V2rayNG3",
-    "server": "192.3.85.237",
-    "port": 443,
+    "type": "trojan",
+    "name": "PL_speednode_0039",
+    "server": "45.144.48.158",
+    "port": 8443,
     "config": {
-      "name": "@V2rayNG3",
-      "password": "123456",
-      "port": 443,
-      "server": "192.3.85.237",
-      "skip-cert-verify": true,
-      "sni": "bing.com",
-      "tls": false,
-      "type": "hysteria2"
+      "name": "PL_speednode_0039",
+      "network": "ws",
+      "password": "49d416e1-4cec-41e1-bff6-3748c466f275",
+      "port": 8443,
+      "server": "45.144.48.158",
+      "skip-cert-verify": false,
+      "sni": "joss.dus.biz.id",
+      "type": "trojan",
+      "udp": true,
+      "ws-opts": {
+        "headers": {
+          "Host": "joss.dus.biz.id"
+        },
+        "path": "/Free-VPN-CF-Geo-Project/45.144.48.158=8443"
+      }
     },
     "streaming_access": {
-      "youtube": false,
+      "youtube": true,
       "github": true,
       "chatgpt": true,
       "netflix": true
     },
     "validated": true,
-    "speed": 297.33,
+    "speed": 287.93,
     "speed_ok": true
   },
   {
-    "type": "trojan",
-    "name": "香港5|@ripaojiedian",
-    "server": "219.77.239.35",
+    "type": "vless",
+    "name": "IQ_speednode_0028",
+    "server": "sws.jykvpn.com",
     "port": 443,
     "config": {
-      "name": "香港5|@ripaojiedian",
-      "network": "tcp",
-      "password": "BxceQaOe",
+      "flow": "xtls-rprx-vision",
+      "name": "IQ_speednode_0028",
       "port": 443,
-      "server": "219.77.239.35",
-      "skip-cert-verify": true,
-      "sni": "t.me%2Fripaojiedian",
-      "type": "trojan"
+      "reality-opts": {
+        "public-key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
+        "short-id": "c2a0b2d60a7fc300"
+      },
+      "server": "sws.jykvpn.com",
+      "servername": "cdnjs.com",
+      "skip-cert-verify": false,
+      "tls": true,
+      "type": "vless",
+      "udp": true,
+      "uuid": "56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1"
     },
     "streaming_access": {
-      "youtube": false,
+      "youtube": true,
       "github": true,
       "chatgpt": true,
       "netflix": true
     },
     "validated": true,
-    "speed": 284.77,
+    "speed": 265.74,
+    "speed_ok": true
+  },
+  {
+    "type": "vless",
+    "name": "US_speednode_0055",
+    "server": "fis.jykvpn.com",
+    "port": 443,
+    "config": {
+      "flow": "xtls-rprx-vision",
+      "name": "US_speednode_0055",
+      "port": 443,
+      "reality-opts": {
+        "public-key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
+        "short-id": "c2a0b2d60a7fc300"
+      },
+      "server": "fis.jykvpn.com",
+      "servername": "cdnjs.com",
+      "skip-cert-verify": false,
+      "tls": true,
+      "type": "vless",
+      "udp": true,
+      "uuid": "56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1"
+    },
+    "streaming_access": {
+      "youtube": true,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 252.45,
     "speed_ok": true
   },
   {
@@ -79,260 +123,21 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 276.49,
-    "speed_ok": true
-  },
-  {
-    "type": "vless",
-    "name": "AT_speednode_0001",
-    "server": "sandking.fonixapp.org",
-    "port": 10668,
-    "config": {
-      "client-fingerprint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "name": "AT_speednode_0001",
-      "port": 10668,
-      "reality-opts": {
-        "public-key": "Q6xd8H-9jQy5bqqAaCqHqV1VKkzbp2-tzwQGjgoI8GI",
-        "short-id": "f7"
-      },
-      "server": "sandking.fonixapp.org",
-      "servername": "ilovepdf.com",
-      "skip-cert-verify": false,
-      "tls": true,
-      "type": "vless",
-      "udp": true,
-      "uuid": "53e91da4-f382-4b8e-890a-2499bc877554"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 269.65,
-    "speed_ok": true
-  },
-  {
-    "type": "vless",
-    "name": "IQ_speednode_0025",
-    "server": "frs.jykvpn.com",
-    "port": 443,
-    "config": {
-      "flow": "xtls-rprx-vision",
-      "name": "IQ_speednode_0025",
-      "port": 443,
-      "reality-opts": {
-        "public-key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
-        "short-id": "4c02bbbfa833b3b6"
-      },
-      "server": "frs.jykvpn.com",
-      "servername": "cdnjs.com",
-      "skip-cert-verify": false,
-      "tls": true,
-      "type": "vless",
-      "udp": true,
-      "uuid": "56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1"
-    },
-    "streaming_access": {
-      "youtube": true,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 261.94,
-    "speed_ok": true
-  },
-  {
-    "type": "trojan",
-    "name": "美国3|@ripaojiedian",
-    "server": "116.49.237.130",
-    "port": 4094,
-    "config": {
-      "name": "美国3|@ripaojiedian",
-      "network": "tcp",
-      "password": "BxceQaOe",
-      "port": 4094,
-      "server": "116.49.237.130",
-      "skip-cert-verify": true,
-      "sni": "t.me%2Fripaojiedian",
-      "type": "trojan"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 256.61,
-    "speed_ok": true
-  },
-  {
-    "type": "trojan",
-    "name": "日本3|@ripaojiedian",
-    "server": "160.16.196.59",
-    "port": 3169,
-    "config": {
-      "name": "日本3|@ripaojiedian",
-      "network": "tcp",
-      "password": "2274c52572e721086f8bd8f88984643c",
-      "port": 3169,
-      "server": "160.16.196.59",
-      "skip-cert-verify": false,
-      "sni": "www.nintendogames.net",
-      "type": "trojan"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 232.77,
-    "speed_ok": true
-  },
-  {
-    "type": "vless",
-    "name": "JP_speednode_0032",
-    "server": "usa.jykvpn.com",
-    "port": 443,
-    "config": {
-      "flow": "xtls-rprx-vision",
-      "name": "JP_speednode_0032",
-      "port": 443,
-      "reality-opts": {
-        "public-key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
-        "short-id": "4c02bbbfa833b3b6"
-      },
-      "server": "usa.jykvpn.com",
-      "servername": "cdnjs.com",
-      "skip-cert-verify": false,
-      "tls": true,
-      "type": "vless",
-      "udp": true,
-      "uuid": "56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1"
-    },
-    "streaming_access": {
-      "youtube": true,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 232.54,
-    "speed_ok": true
-  },
-  {
-    "type": "trojan",
-    "name": "PL_speednode_0039",
-    "server": "45.144.48.158",
-    "port": 8443,
-    "config": {
-      "name": "PL_speednode_0039",
-      "network": "ws",
-      "password": "49d416e1-4cec-41e1-bff6-3748c466f275",
-      "port": 8443,
-      "server": "45.144.48.158",
-      "skip-cert-verify": false,
-      "sni": "joss.dus.biz.id",
-      "type": "trojan",
-      "udp": true,
-      "ws-opts": {
-        "headers": {
-          "Host": "joss.dus.biz.id"
-        },
-        "path": "/Free-VPN-CF-Geo-Project/45.144.48.158=8443"
-      }
-    },
-    "streaming_access": {
-      "youtube": true,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 230.03,
-    "speed_ok": true
-  },
-  {
-    "type": "vless",
-    "name": "AT_speednode_0004",
-    "server": "152.53.143.63",
-    "port": 54663,
-    "config": {
-      "flow": "xtls-rprx-vision",
-      "name": "AT_speednode_0004",
-      "port": 54663,
-      "reality-opts": {
-        "public-key": "HqZHmZub8Q43m2n10fkdH133wVdYgnLEnIUGpypaQno",
-        "short-id": "2eb3cddded"
-      },
-      "server": "152.53.143.63",
-      "servername": "stackoverflow.com",
-      "skip-cert-verify": false,
-      "tls": true,
-      "type": "vless",
-      "udp": true,
-      "uuid": "c088d5a0-cdc3-4880-8bd7-44ecef474ba2"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 224.75,
-    "speed_ok": true
-  },
-  {
-    "type": "vless",
-    "name": "US_speednode_0055",
-    "server": "fis.jykvpn.com",
-    "port": 443,
-    "config": {
-      "flow": "xtls-rprx-vision",
-      "name": "US_speednode_0055",
-      "port": 443,
-      "reality-opts": {
-        "public-key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
-        "short-id": "c2a0b2d60a7fc300"
-      },
-      "server": "fis.jykvpn.com",
-      "servername": "cdnjs.com",
-      "skip-cert-verify": false,
-      "tls": true,
-      "type": "vless",
-      "udp": true,
-      "uuid": "56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1"
-    },
-    "streaming_access": {
-      "youtube": true,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 222.74,
+    "speed": 242.28,
     "speed_ok": true
   },
   {
     "type": "hysteria2",
-    "name": "@NoForcedheaven",
-    "server": "46.62.152.236",
+    "name": "@V2rayNG3",
+    "server": "192.3.85.237",
     "port": 443,
     "config": {
-      "name": "@NoForcedheaven",
-      "obfs": "salamander",
-      "obfs-password": "9242a8bf",
-      "password": "a2678c97b8d79059",
+      "name": "@V2rayNG3",
+      "password": "123456",
       "port": 443,
-      "server": "46.62.152.236",
+      "server": "192.3.85.237",
       "skip-cert-verify": true,
+      "sni": "bing.com",
       "tls": false,
       "type": "hysteria2"
     },
@@ -343,160 +148,7 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 221.55,
-    "speed_ok": true
-  },
-  {
-    "type": "trojan",
-    "name": "PL_speednode_0038",
-    "server": "45.144.48.55",
-    "port": 2053,
-    "config": {
-      "name": "PL_speednode_0038",
-      "network": "ws",
-      "password": "55d19115-ec40-407b-a674-74e6a948347a",
-      "port": 2053,
-      "server": "45.144.48.55",
-      "skip-cert-verify": false,
-      "sni": "joss.dus.biz.id",
-      "type": "trojan",
-      "udp": true,
-      "ws-opts": {
-        "headers": {
-          "Host": "joss.dus.biz.id"
-        },
-        "path": "/Free-VPN-CF-Geo-Project/45.144.48.55=2053"
-      }
-    },
-    "streaming_access": {
-      "youtube": true,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 217.8,
-    "speed_ok": true
-  },
-  {
-    "type": "trojan",
-    "name": "IL_speednode_0021",
-    "server": "77.91.69.238",
-    "port": 2053,
-    "config": {
-      "name": "IL_speednode_0021",
-      "network": "ws",
-      "password": "de763850-1022-4a03-a1ac-84422cfcd4fb",
-      "port": 2053,
-      "server": "77.91.69.238",
-      "skip-cert-verify": false,
-      "sni": "joss.dus.biz.id",
-      "type": "trojan",
-      "udp": true,
-      "ws-opts": {
-        "headers": {
-          "Host": "joss.dus.biz.id"
-        },
-        "path": "/Free-VPN-CF-Geo-Project/77.91.69.238=2053"
-      }
-    },
-    "streaming_access": {
-      "youtube": true,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 213.81,
-    "speed_ok": true
-  },
-  {
-    "type": "trojan",
-    "name": "日本2|@ripaojiedian",
-    "server": "160.16.132.158",
-    "port": 1334,
-    "config": {
-      "name": "日本2|@ripaojiedian",
-      "network": "tcp",
-      "password": "2274c52572e721086f8bd8f88984643c",
-      "port": 1334,
-      "server": "160.16.132.158",
-      "skip-cert-verify": false,
-      "sni": "www.nintendogames.net",
-      "type": "trojan"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 197.24,
-    "speed_ok": true
-  },
-  {
-    "type": "vless",
-    "name": "LU_speednode_0033",
-    "server": "ezalor.fonixapp.org",
-    "port": 17715,
-    "config": {
-      "client-fingerprint": "firefox",
-      "flow": "xtls-rprx-vision",
-      "name": "LU_speednode_0033",
-      "port": 17715,
-      "reality-opts": {
-        "public-key": "itR04_u2Xo8xZ4a9Kk2U-pul4hNXzZYskdHdx4rjO0s",
-        "short-id": "0db891a2"
-      },
-      "server": "ezalor.fonixapp.org",
-      "servername": "ilovepdf.com",
-      "skip-cert-verify": false,
-      "tls": true,
-      "type": "vless",
-      "udp": true,
-      "uuid": "9627bc06-1a36-4674-aeb8-4e863b8bd979"
-    },
-    "streaming_access": {
-      "youtube": true,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 180.43,
-    "speed_ok": true
-  },
-  {
-    "type": "trojan",
-    "name": "RU_speednode_0044",
-    "server": "213.159.208.88",
-    "port": 2053,
-    "config": {
-      "name": "RU_speednode_0044",
-      "network": "ws",
-      "password": "14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2",
-      "port": 2053,
-      "server": "213.159.208.88",
-      "skip-cert-verify": false,
-      "sni": "joss.dus.biz.id",
-      "type": "trojan",
-      "udp": true,
-      "ws-opts": {
-        "headers": {
-          "Host": "joss.dus.biz.id"
-        },
-        "path": "/Free-VPN-CF-Geo-Project/213.159.208.88=2053"
-      }
-    },
-    "streaming_access": {
-      "youtube": true,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 175.6,
+    "speed": 242.1,
     "speed_ok": true
   },
   {
@@ -521,23 +173,48 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 161.63,
+    "speed": 227.28,
+    "speed_ok": true
+  },
+  {
+    "type": "trojan",
+    "name": "新加坡2|@ripaojiedian",
+    "server": "160.16.124.55",
+    "port": 5553,
+    "config": {
+      "name": "新加坡2|@ripaojiedian",
+      "network": "tcp",
+      "password": "2274c52572e721086f8bd8f88984643c",
+      "port": 5553,
+      "server": "160.16.124.55",
+      "skip-cert-verify": false,
+      "sni": "www.nintendogames.net",
+      "type": "trojan"
+    },
+    "streaming_access": {
+      "youtube": false,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 223.6,
     "speed_ok": true
   },
   {
     "type": "vless",
-    "name": "RU_speednode_0041",
-    "server": "youtube.jykvpn.com",
+    "name": "US_speednode_0050",
+    "server": "autos.jykvpn.com",
     "port": 443,
     "config": {
       "flow": "xtls-rprx-vision",
-      "name": "RU_speednode_0041",
+      "name": "US_speednode_0050",
       "port": 443,
       "reality-opts": {
         "public-key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
-        "short-id": "c2a0b2d60a7fc300"
+        "short-id": "4c02bbbfa833b3b6"
       },
-      "server": "youtube.jykvpn.com",
+      "server": "autos.jykvpn.com",
       "servername": "cdnjs.com",
       "skip-cert-verify": false,
       "tls": true,
@@ -552,7 +229,38 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 139.4,
+    "speed": 220.2,
+    "speed_ok": true
+  },
+  {
+    "type": "vless",
+    "name": "BG_speednode_0006",
+    "server": "albania.solobot.ru",
+    "port": 443,
+    "config": {
+      "flow": "xtls-rprx-vision",
+      "name": "BG_speednode_0006",
+      "port": 443,
+      "reality-opts": {
+        "public-key": "ZmcE7f2ZycnrnsUSPkCrPBIGYC8dM4b27DX47DwCHXk",
+        "short-id": "473915f2ef487f"
+      },
+      "server": "albania.solobot.ru",
+      "servername": "yahoo.com",
+      "skip-cert-verify": false,
+      "tls": true,
+      "type": "vless",
+      "udp": true,
+      "uuid": "678bbdc1-7307-4cf2-bec1-bcdbd8efdbe5"
+    },
+    "streaming_access": {
+      "youtube": false,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 215.45,
     "speed_ok": true
   },
   {
@@ -584,38 +292,113 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 138.57,
+    "speed": 214.87,
     "speed_ok": true
   },
   {
-    "type": "vless",
-    "name": "RU_speednode_0043",
-    "server": "193.124.182.224",
-    "port": 4442,
+    "type": "trojan",
+    "name": "香港5|@ripaojiedian",
+    "server": "219.77.239.35",
+    "port": 443,
     "config": {
-      "flow": "xtls-rprx-vision",
-      "name": "RU_speednode_0043",
-      "port": 4442,
-      "reality-opts": {
-        "public-key": "HCkRC28M16WYrORNt2-Bga_3AuxuGnphlAwXHY9R4SI",
-        "short-id": "fd99"
-      },
-      "server": "193.124.182.224",
-      "servername": "dl.google.com",
-      "skip-cert-verify": false,
-      "tls": true,
-      "type": "vless",
-      "udp": true,
-      "uuid": "9429f5ce-ed0f-48e7-afda-12f7b23441af"
+      "name": "香港5|@ripaojiedian",
+      "network": "tcp",
+      "password": "BxceQaOe",
+      "port": 443,
+      "server": "219.77.239.35",
+      "skip-cert-verify": true,
+      "sni": "t.me%2Fripaojiedian",
+      "type": "trojan"
     },
     "streaming_access": {
-      "youtube": true,
+      "youtube": false,
       "github": true,
       "chatgpt": true,
       "netflix": true
     },
     "validated": true,
-    "speed": 132.46,
+    "speed": 204.29,
+    "speed_ok": true
+  },
+  {
+    "type": "vless",
+    "name": "IQ_speednode_0025",
+    "server": "frs.jykvpn.com",
+    "port": 443,
+    "config": {
+      "flow": "xtls-rprx-vision",
+      "name": "IQ_speednode_0025",
+      "port": 443,
+      "reality-opts": {
+        "public-key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
+        "short-id": "4c02bbbfa833b3b6"
+      },
+      "server": "frs.jykvpn.com",
+      "servername": "cdnjs.com",
+      "skip-cert-verify": false,
+      "tls": true,
+      "type": "vless",
+      "udp": true,
+      "uuid": "56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1"
+    },
+    "streaming_access": {
+      "youtube": false,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 192.11,
+    "speed_ok": true
+  },
+  {
+    "type": "trojan",
+    "name": "日本2|@ripaojiedian",
+    "server": "160.16.132.158",
+    "port": 1334,
+    "config": {
+      "name": "日本2|@ripaojiedian",
+      "network": "tcp",
+      "password": "2274c52572e721086f8bd8f88984643c",
+      "port": 1334,
+      "server": "160.16.132.158",
+      "skip-cert-verify": false,
+      "sni": "www.nintendogames.net",
+      "type": "trojan"
+    },
+    "streaming_access": {
+      "youtube": false,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 189.5,
+    "speed_ok": true
+  },
+  {
+    "type": "trojan",
+    "name": "美国3|@ripaojiedian",
+    "server": "116.49.237.130",
+    "port": 4094,
+    "config": {
+      "name": "美国3|@ripaojiedian",
+      "network": "tcp",
+      "password": "BxceQaOe",
+      "port": 4094,
+      "server": "116.49.237.130",
+      "skip-cert-verify": true,
+      "sni": "t.me%2Fripaojiedian",
+      "type": "trojan"
+    },
+    "streaming_access": {
+      "youtube": false,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 166.91,
     "speed_ok": true
   },
   {
@@ -646,79 +429,23 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 126.79,
-    "speed_ok": true
-  },
-  {
-    "type": "hysteria2",
-    "name": "MCI-IR--@V2rayAlpha-14",
-    "server": "falankefu1.nezhasu.com",
-    "port": 443,
-    "config": {
-      "name": "MCI-IR--@V2rayAlpha-14",
-      "password": "2b195c17-5ff5-4b0d-a809-210b92212394",
-      "port": 443,
-      "server": "falankefu1.nezhasu.com",
-      "skip-cert-verify": true,
-      "sni": "falankefu1.nezhasu.com",
-      "tls": false,
-      "type": "hysteria2"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 125.26,
+    "speed": 164.82,
     "speed_ok": true
   },
   {
     "type": "vless",
-    "name": "IL_speednode_0020",
-    "server": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
+    "name": "RU_speednode_0041",
+    "server": "youtube.jykvpn.com",
     "port": 443,
     "config": {
       "flow": "xtls-rprx-vision",
-      "name": "IL_speednode_0020",
-      "port": 443,
-      "reality-opts": {
-        "public-key": "YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE",
-        "short-id": "55e6af1a35e64a98"
-      },
-      "server": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
-      "servername": "i2pd.website",
-      "skip-cert-verify": false,
-      "tls": true,
-      "type": "vless",
-      "udp": true,
-      "uuid": "0e8a6896-ad90-4a3b-89a3-77d64aa409e2"
-    },
-    "streaming_access": {
-      "youtube": true,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 115.26,
-    "speed_ok": true
-  },
-  {
-    "type": "vless",
-    "name": "IQ_speednode_0028",
-    "server": "sws.jykvpn.com",
-    "port": 443,
-    "config": {
-      "flow": "xtls-rprx-vision",
-      "name": "IQ_speednode_0028",
+      "name": "RU_speednode_0041",
       "port": 443,
       "reality-opts": {
         "public-key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
         "short-id": "c2a0b2d60a7fc300"
       },
-      "server": "sws.jykvpn.com",
+      "server": "youtube.jykvpn.com",
       "servername": "cdnjs.com",
       "skip-cert-verify": false,
       "tls": true,
@@ -733,7 +460,221 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 110.31,
+    "speed": 163.39,
+    "speed_ok": true
+  },
+  {
+    "type": "vless",
+    "name": "JP_speednode_0032",
+    "server": "usa.jykvpn.com",
+    "port": 443,
+    "config": {
+      "flow": "xtls-rprx-vision",
+      "name": "JP_speednode_0032",
+      "port": 443,
+      "reality-opts": {
+        "public-key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
+        "short-id": "4c02bbbfa833b3b6"
+      },
+      "server": "usa.jykvpn.com",
+      "servername": "cdnjs.com",
+      "skip-cert-verify": false,
+      "tls": true,
+      "type": "vless",
+      "udp": true,
+      "uuid": "56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1"
+    },
+    "streaming_access": {
+      "youtube": true,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 145.42,
+    "speed_ok": true
+  },
+  {
+    "type": "trojan",
+    "name": "NL_speednode_0037",
+    "server": "185.121.233.231",
+    "port": 8443,
+    "config": {
+      "name": "NL_speednode_0037",
+      "network": "ws",
+      "password": "f5eaa93a-4660-46a8-a1fd-bf993c7da57c",
+      "port": 8443,
+      "server": "185.121.233.231",
+      "skip-cert-verify": false,
+      "sni": "joss.dus.biz.id",
+      "type": "trojan",
+      "udp": true,
+      "ws-opts": {
+        "headers": {
+          "Host": "joss.dus.biz.id"
+        },
+        "path": "/Free-VPN-CF-Geo-Project/185.121.233.231=8443"
+      }
+    },
+    "streaming_access": {
+      "youtube": true,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 137.52,
+    "speed_ok": true
+  },
+  {
+    "type": "trojan",
+    "name": "DK_speednode_0011",
+    "server": "89.28.236.243",
+    "port": 443,
+    "config": {
+      "name": "DK_speednode_0011",
+      "network": "ws",
+      "password": "63b8ce6d-9a30-4122-a00f-fd47f020dc27",
+      "port": 443,
+      "server": "89.28.236.243",
+      "skip-cert-verify": false,
+      "sni": "joss.dus.biz.id",
+      "type": "trojan",
+      "udp": true,
+      "ws-opts": {
+        "headers": {
+          "Host": "joss.dus.biz.id"
+        },
+        "path": "/Free-VPN-CF-Geo-Project/89.28.236.243=443"
+      }
+    },
+    "streaming_access": {
+      "youtube": false,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 130.68,
+    "speed_ok": true
+  },
+  {
+    "type": "trojan",
+    "name": "SE_speednode_0046",
+    "server": "77.221.141.207",
+    "port": 443,
+    "config": {
+      "name": "SE_speednode_0046",
+      "network": "ws",
+      "password": "edeff73d-065d-4b0a-b848-aad9d3380223",
+      "port": 443,
+      "server": "77.221.141.207",
+      "skip-cert-verify": false,
+      "sni": "joss.dus.biz.id",
+      "type": "trojan",
+      "udp": true,
+      "ws-opts": {
+        "headers": {
+          "Host": "joss.dus.biz.id"
+        },
+        "path": "/Free-VPN-CF-Geo-Project/77.221.141.207=443"
+      }
+    },
+    "streaming_access": {
+      "youtube": true,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 116.66,
+    "speed_ok": true
+  },
+  {
+    "type": "hysteria2",
+    "name": "MCI-IR--@V2rayAlpha-7",
+    "server": "135.148.82.248",
+    "port": 33333,
+    "config": {
+      "name": "MCI-IR--@V2rayAlpha-7",
+      "password": "9ec830fd-79da-4706-a964-cb227d7198db",
+      "port": 33333,
+      "server": "135.148.82.248",
+      "skip-cert-verify": true,
+      "tls": false,
+      "type": "hysteria2"
+    },
+    "streaming_access": {
+      "youtube": false,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 104.78,
+    "speed_ok": true
+  },
+  {
+    "type": "vless",
+    "name": "FR_speednode_0014",
+    "server": "195.154.42.111",
+    "port": 33009,
+    "config": {
+      "flow": "xtls-rprx-vision",
+      "name": "FR_speednode_0014",
+      "port": 33009,
+      "reality-opts": {
+        "public-key": "vQxUlk2tCENv9crfrUAp5JdJOZTKhMH7XnoKLqbAYx0",
+        "short-id": "c0d304da0c4dcadc"
+      },
+      "server": "195.154.42.111",
+      "servername": "www.yahoo.com",
+      "skip-cert-verify": false,
+      "tls": true,
+      "type": "vless",
+      "udp": true,
+      "uuid": "77a33d77-7af9-4c33-9556-d6711becca04"
+    },
+    "streaming_access": {
+      "youtube": false,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 104.39,
+    "speed_ok": true
+  },
+  {
+    "type": "trojan",
+    "name": "RU_speednode_0044",
+    "server": "213.159.208.88",
+    "port": 2053,
+    "config": {
+      "name": "RU_speednode_0044",
+      "network": "ws",
+      "password": "14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2",
+      "port": 2053,
+      "server": "213.159.208.88",
+      "skip-cert-verify": false,
+      "sni": "joss.dus.biz.id",
+      "type": "trojan",
+      "udp": true,
+      "ws-opts": {
+        "headers": {
+          "Host": "joss.dus.biz.id"
+        },
+        "path": "/Free-VPN-CF-Geo-Project/213.159.208.88=2053"
+      }
+    },
+    "streaming_access": {
+      "youtube": true,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 103.45,
     "speed_ok": true
   }
 ]
