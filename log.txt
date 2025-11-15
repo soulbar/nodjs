@@ -1355,3 +1355,74 @@ expected chomping or indentation indicators, but found '|'
 2025-11-15 20:22:42,355 - __main__ - INFO -   chatgpt: 22 个节点可访问
 2025-11-15 20:22:42,355 - __main__ - INFO -   netflix: 21 个节点可访问
 2025-11-15 20:22:42,355 - __main__ - INFO - ==================================================
+2025-11-15 22:12:46,168 - __main__ - INFO - ==================================================
+2025-11-15 22:12:46,168 - __main__ - INFO - 开始节点爬取和验证流程
+2025-11-15 22:12:46,168 - __main__ - INFO - 时间: 2025-11-15 22:12:46
+2025-11-15 22:12:46,168 - __main__ - INFO - ==================================================
+2025-11-15 22:12:46,168 - __main__ - INFO - 步骤 1: 开始爬取节点...
+2025-11-15 22:12:46,168 - node_crawler - INFO - 开始爬取仓库: freefq/free
+2025-11-15 22:12:47,008 - node_crawler - INFO - 仓库 freefq/free 共爬取到 0 个节点
+2025-11-15 22:12:47,008 - node_crawler - INFO - 开始爬取仓库: peasoft/NoMoreWalls
+2025-11-15 22:12:48,069 - node_crawler - ERROR - 解析 Clash 配置失败: while scanning a block scalar
+  in "<unicode string>", line 1, column 1:
+    ||ynuf.aliapp.org^
+    ^
+expected chomping or indentation indicators, but found '|'
+  in "<unicode string>", line 1, column 2:
+    ||ynuf.aliapp.org^
+     ^
+2025-11-15 22:12:48,803 - node_crawler - INFO - 从 list.meta.yml 解析到 144 个节点
+2025-11-15 22:12:49,410 - node_crawler - INFO - 从 list.yml 解析到 31 个节点
+2025-11-15 22:12:49,482 - node_crawler - INFO - 从 list_raw.txt 解析到 22 个链接节点
+2025-11-15 22:12:49,937 - node_crawler - INFO - 仓库 peasoft/NoMoreWalls 共爬取到 197 个节点
+2025-11-15 22:12:49,937 - node_crawler - INFO - 开始爬取仓库: ripaojiedian/free-ssr-ss-v2ray-vless-clash
+2025-11-15 22:12:50,380 - node_crawler - INFO - 仓库 ripaojiedian/free-ssr-ss-v2ray-vless-clash 共爬取到 0 个节点
+2025-11-15 22:12:50,380 - node_crawler - INFO - 去重后共 133 个唯一节点
+2025-11-15 22:12:50,380 - __main__ - INFO - 共爬取到 133 个节点
+2025-11-15 22:12:50,380 - __main__ - INFO - 步骤 2: 开始验证节点可用性...
+2025-11-15 22:12:50,380 - node_validator - INFO - 开始验证 133 个节点...
+2025-11-15 22:18:27,065 - node_validator - INFO - 验证完成，共 25 个可用节点
+2025-11-15 22:18:27,065 - __main__ - INFO - 验证完成，共 25 个可用节点
+2025-11-15 22:18:27,065 - __main__ - INFO - 步骤 3: 开始测速...
+2025-11-15 22:18:27,066 - node_speedtest - INFO - 开始测速 25 个节点...
+2025-11-15 22:18:27,101 - node_speedtest - INFO - 节点 192.3.85.237 速度: 284.30 KB/s
+2025-11-15 22:18:27,102 - node_speedtest - INFO - 节点 160.16.236.32 速度: 152.08 KB/s
+2025-11-15 22:18:27,102 - node_speedtest - INFO - 节点 172.105.217.136 速度: 242.91 KB/s
+2025-11-15 22:18:27,102 - node_speedtest - INFO - 节点 falankefu1.nezhasu.com 速度: 142.15 KB/s
+2025-11-15 22:18:27,103 - node_speedtest - INFO - 节点 185.161.251.24 速度: 154.12 KB/s
+2025-11-15 22:18:27,103 - node_speedtest - INFO - 节点 160.16.57.238 速度: 204.95 KB/s
+2025-11-15 22:18:27,104 - node_speedtest - INFO - 节点 160.16.227.93 速度: 251.72 KB/s
+2025-11-15 22:18:27,104 - node_speedtest - INFO - 节点 160.16.57.238 速度: 274.91 KB/s
+2025-11-15 22:18:27,104 - node_speedtest - INFO - 节点 194.35.116.62 速度: 279.17 KB/s
+2025-11-15 22:18:27,131 - node_speedtest - INFO - 节点 5.129.252.60 速度: 133.32 KB/s
+2025-11-15 22:18:27,537 - node_speedtest - INFO - 节点 fis.jykvpn.com 速度: 230.26 KB/s
+2025-11-15 22:18:27,547 - node_speedtest - INFO - 节点 202.181.103.235 速度: 208.35 KB/s
+2025-11-15 22:18:27,597 - node_speedtest - INFO - 节点 60.249.35.3 速度: 188.77 KB/s
+2025-11-15 22:18:27,645 - node_speedtest - INFO - 节点 46.62.152.236 速度: 172.85 KB/s
+2025-11-15 22:18:27,670 - node_speedtest - INFO - 节点 us.wyau.cn 速度: 166.11 KB/s
+2025-11-15 22:18:27,698 - node_speedtest - INFO - 节点 www.speedtest.net 速度: 168.28 KB/s
+2025-11-15 22:18:27,745 - node_speedtest - INFO - 节点 youtube.jykvpn.com 速度: 147.73 KB/s
+2025-11-15 22:18:27,750 - node_speedtest - INFO - 节点 40.233.103.51 速度: 146.39 KB/s
+2025-11-15 22:18:27,772 - node_speedtest - INFO - 节点 153.121.51.29 速度: 141.99 KB/s
+2025-11-15 22:18:27,781 - node_speedtest - INFO - 节点 135.148.82.248 速度: 139.92 KB/s
+2025-11-15 22:18:27,811 - node_speedtest - INFO - 节点 38.180.191.251 速度: 134.54 KB/s
+2025-11-15 22:18:27,839 - node_speedtest - INFO - 节点 195.254.165.152 速度: 129.62 KB/s
+2025-11-15 22:18:27,937 - node_speedtest - INFO - 节点 185.177.238.80 速度: 119.85 KB/s
+2025-11-15 22:18:28,061 - node_speedtest - INFO - 节点 58.152.110.216 速度: 100.64 KB/s
+2025-11-15 22:18:28,061 - node_speedtest - INFO - 测速完成，共 24 个节点速度在范围内
+2025-11-15 22:18:28,061 - __main__ - INFO - 测速完成，共 24 个节点速度在范围内
+2025-11-15 22:18:28,061 - __main__ - INFO - 步骤 4: 保存结果...
+2025-11-15 22:18:28,061 - node_storage - INFO - 已保存 24 个节点到 nodes.txt
+2025-11-15 22:18:28,062 - node_storage - INFO - 已保存 24 个节点到 nodes.json
+2025-11-15 22:18:28,076 - node_storage - INFO - 已保存 Clash 配置到 clash_config.yaml
+2025-11-15 22:18:28,076 - __main__ - INFO - ==================================================
+2025-11-15 22:18:28,076 - __main__ - INFO - 爬取和验证完成！
+2025-11-15 22:18:28,076 - __main__ - INFO - 总节点数: 133
+2025-11-15 22:18:28,076 - __main__ - INFO - 可用节点数: 25
+2025-11-15 22:18:28,076 - __main__ - INFO - 速度合格节点数: 24
+2025-11-15 22:18:28,076 - __main__ - INFO - 流媒体访问统计:
+2025-11-15 22:18:28,076 - __main__ - INFO -   youtube: 6 个节点可访问
+2025-11-15 22:18:28,076 - __main__ - INFO -   github: 24 个节点可访问
+2025-11-15 22:18:28,076 - __main__ - INFO -   chatgpt: 24 个节点可访问
+2025-11-15 22:18:28,076 - __main__ - INFO -   netflix: 24 个节点可访问
+2025-11-15 22:18:28,077 - __main__ - INFO - ==================================================
