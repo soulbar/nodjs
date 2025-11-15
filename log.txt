@@ -1077,3 +1077,17 @@ expected chomping or indentation indicators, but found '|'
 2025-11-15 10:22:09,672 - __main__ - INFO -   chatgpt: 14 个节点可访问
 2025-11-15 10:22:09,672 - __main__ - INFO -   netflix: 14 个节点可访问
 2025-11-15 10:22:09,672 - __main__ - INFO - ==================================================
+2025-11-15 12:31:01,379 - __main__ - INFO - ==================================================
+2025-11-15 12:31:01,379 - __main__ - INFO - 开始节点爬取和验证流程
+2025-11-15 12:31:01,379 - __main__ - INFO - 时间: 2025-11-15 12:31:01
+2025-11-15 12:31:01,379 - __main__ - INFO - ==================================================
+2025-11-15 12:31:01,379 - __main__ - INFO - 步骤 1: 开始爬取节点...
+2025-11-15 12:31:01,379 - node_crawler - INFO - 开始爬取仓库: freefq/free
+2025-11-15 12:31:02,183 - node_crawler - INFO - 仓库 freefq/free 共爬取到 0 个节点
+2025-11-15 12:31:02,183 - node_crawler - INFO - 开始爬取仓库: peasoft/NoMoreWalls
+2025-11-15 12:31:02,862 - node_crawler - INFO - 仓库 peasoft/NoMoreWalls 共爬取到 0 个节点
+2025-11-15 12:31:02,862 - node_crawler - INFO - 开始爬取仓库: ripaojiedian/free-ssr-ss-v2ray-vless-clash
+2025-11-15 12:31:03,538 - node_crawler - INFO - 仓库 ripaojiedian/free-ssr-ss-v2ray-vless-clash 共爬取到 0 个节点
+2025-11-15 12:31:03,538 - node_crawler - INFO - 去重后共 0 个唯一节点
+2025-11-15 12:31:03,539 - __main__ - INFO - 共爬取到 0 个节点
+2025-11-15 12:31:03,539 - __main__ - WARNING - 未爬取到任何节点，请检查网络连接和仓库配置
